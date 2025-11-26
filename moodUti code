@@ -1,0 +1,33 @@
+public final class MoodUti {
+
+    private MoodUti() {
+
+    }
+
+    public static String analyzeMood(String input) {
+        if (input == null  input.trim().isEmpty()) {
+            return "NEUTRAL";
+        }
+
+        String sentenceInput = input.toLowerCase().trim();
+
+     
+
+        String result;
+
+        if (sentenceInput.contains("happy")  sentenceInput.contains("great")) {
+
+           result ="POSITIVE";
+
+        } else if (sentenceInput.contains("sad") || sentenceInput.contains("angry")) {
+
+           result =  "NEGATIVE";
+
+        } else {
+            result = "NEUTRAL";
+        }
+
+        return result;
+    }
+
+}

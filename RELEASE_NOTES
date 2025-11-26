@@ -1,0 +1,15 @@
+v1.1 ( Negation Handling and Feature Merge)
+ New Features and Functional Improvements
+* Negation Handling: Implemented robust logic to detect negation keywords (`not`, `never`) to prevent false-positive mood readings.
+* Expanded Keyword Set: Merged features to include a wider, more comprehensive list of positive and negative mood indicators.
+* Code Stability: Successfully resolved an intentional merge conflict during the feature integration process.
+
+  Version Control Achieved
+* This release officially tags the stable code after all features were successfully integrated into the main branch.
+
+
+v1.0 (Initial release)
+ Core Functionality
+* Initial Setup: Established the basic Java utility structure.
+* Simple Logic: Included minimal keyword checking for positive and negative moods.
+* Baseline: This version marks the initial stable code before feature development began.
